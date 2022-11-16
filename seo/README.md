@@ -12,3 +12,11 @@ In order to easily handle this routine on every project, we gather all the right
 - Twitter
 - Pinterest
 - Google +
+
+## Link
+
+- https://ogp.me/
+- https://developers.facebook.com/tools/debug/
+- https://developers.google.com/structured-data/testing-tool/
+- http://schema-creator.org/
+- http://www.abondance.com/actualites/20140627-14046-faut-il-integrer-les-balises-semantiques-schema-org-ses-pages.html
