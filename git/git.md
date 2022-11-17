@@ -35,3 +35,33 @@ Il est possible que lorsque l'on nous devions faire un changement sur une ature 
 - `git stash`: mets le code en cache
 - `git stash pop`: recupere notre code
 
+## Configuration de Git
+
+Voir l'[article](https://help.github.com/articles/setting-your-username-in-git) pour la configuration
+
+Voir l'[article](https://help.github.com/articles/caching-your-github-password-in-git) pour le mot de passe
+
+- [Site de git](https://git-scm.com) pour la doc
+- `git --version`
+- `git config --global user.name "Name"`
+- `git config --global user.email "Email"`
+- `git config --global user.name`
+- `git config --global user.email`
+- `git config user.name "Name"` : configuration pour un repo en particulier
+- `git config user.email "Email"` : configuration pour un repo en particulier
+- `git config user.name` : configuration pour un repo en particulier
+- `git config user.email` : configuration pour un repo en particulier
+
+## Git et Github
+
+Voir les [cours](https://skills.github.com/) d'utilisation de github sur github
+
+Voir l'[article](https://help.github.com/en/categories/authenticating-to-github) pour l'authentification ssh
+
+Voir la doc [markdown](https://code.visualstudio.com/docs/languages/markdown) pour vscode
+
+Voir la doc [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) sur Github
+
+Voir le [controle](https://code.visualstudio.com/docs/introvideos/versioncontrol) du flux git sur vscode
+
+- `git remote -v` : permet de verifier les repos sur git et github
