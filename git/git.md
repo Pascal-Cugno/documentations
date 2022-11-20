@@ -56,6 +56,8 @@ Voir l'[article](https://help.github.com/articles/caching-your-github-password-i
 
 Voir les [cours](https://skills.github.com/) d'utilisation de github sur github
 
+Voir la [doc](https://docs.github.com/en) de github
+
 Voir l'[article](https://help.github.com/en/categories/authenticating-to-github) pour l'authentification ssh
 
 Voir la doc [markdown](https://code.visualstudio.com/docs/languages/markdown) pour vscode
