@@ -110,7 +110,6 @@ eventTarget.addEventListener('click', eventHandlerFunction);
 - `keydown` : se declenche a l'appuie sur une touche
 - `keyup` : se declenche a lorsque la touche est relachee
 - `keypress` : se declenche lorsque la touche est appuyee puis relachee
-- 
 
 - `img.src`:
 - `img.src.match('ressource name')`
