@@ -25,3 +25,22 @@ Les differents style de sass sont
 - `compressed`: fichier minifie
 
 Il suffit de lancer le script avec la commande `npm run sass`
+
+## Autoprefixer
+
+- `npm install prefixer postcss postcss-cli -g`
+  - on peut enlever `-g` pour l'installer seulement sur le projet
+  
+En dessous du script pour sass dans le fichier `package.json`, on rajoute un autre script
+
+```js
+"prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed"
+```
+
+Sous la partie `licences` du fichier `package.json` on rajoute une nouvelle ligne, qui permet a autoprefixer de prendre les anciennes versions
+
+```js
+"browserslist": "last 4 versions"
+```
+
+Il ne reste plus qu'a lancer la commande `npm run prefix` pour lancer le script
