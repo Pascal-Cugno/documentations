@@ -272,6 +272,7 @@ Nous pouvons utiliser `justify-content` pour positionner toute la grille le long
     justify-content: center;
 }
 ```
+
 ## Align item
 
 `align-items` est une propriete qui positionne les elements de la grille le long de l'axe vertical. Cette propriete est declaree sur le conteneur de la grille

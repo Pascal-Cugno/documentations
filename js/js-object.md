@@ -386,4 +386,3 @@ console.log(array1.every(isBelowThreshold)); // output: true
 ```
 
 Renvoie `true` pour n'importe quelle condition utilisee sur un tableau vide
-
