@@ -80,3 +80,23 @@ const getData = async () => {
     }
 }
 ```
+
+## Introduction aux requetes POST asynchrones
+
+```js
+const getData = async () => {
+    try{
+        const response = await fetch('https://api-to-call.com/endpoint', {
+            method: 'POST',
+            body: JSON.stringify({id: '200'})
+        });
+        if(response.ok){
+            const jsonResponse = await response.json();
+            // code to execute with jsonResponse
+        }
+        throw new Error('Request failed');
+    } catch(error){
+        console.log(error);
+    }
+}
+```
